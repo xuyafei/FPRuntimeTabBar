@@ -15,6 +15,8 @@
 		D14E7C371EF7BACB00358206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14E7C351EF7BACB00358206 /* LaunchScreen.storyboard */; };
 		D14E7C421EF7BACB00358206 /* FPRuntimeTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E7C411EF7BACB00358206 /* FPRuntimeTabBarTests.m */; };
 		D14E7C4D1EF7BACB00358206 /* FPRuntimeTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E7C4C1EF7BACB00358206 /* FPRuntimeTabBarUITests.m */; };
+		D14E7C5C1EF7BB6400358206 /* FPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E7C5B1EF7BB6400358206 /* FPTabBarViewController.m */; };
+		D14E7C5F1EF7C06100358206 /* UITabBar+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D14E7C5E1EF7C06100358206 /* UITabBar+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D14E7C481EF7BACB00358206 /* FPRuntimeTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPRuntimeTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14E7C4C1EF7BACB00358206 /* FPRuntimeTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPRuntimeTabBarUITests.m; sourceTree = "<group>"; };
 		D14E7C4E1EF7BACB00358206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14E7C5A1EF7BB6400358206 /* FPTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTabBarViewController.h; sourceTree = "<group>"; };
+		D14E7C5B1EF7BB6400358206 /* FPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTabBarViewController.m; sourceTree = "<group>"; };
+		D14E7C5D1EF7C06100358206 /* UITabBar+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Swizzling.h"; sourceTree = "<group>"; };
+		D14E7C5E1EF7C06100358206 /* UITabBar+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				D14E7C2B1EF7BACB00358206 /* AppDelegate.m */,
 				D14E7C2D1EF7BACB00358206 /* ViewController.h */,
 				D14E7C2E1EF7BACB00358206 /* ViewController.m */,
+				D14E7C5A1EF7BB6400358206 /* FPTabBarViewController.h */,
+				D14E7C5B1EF7BB6400358206 /* FPTabBarViewController.m */,
+				D14E7C5D1EF7C06100358206 /* UITabBar+Swizzling.h */,
+				D14E7C5E1EF7C06100358206 /* UITabBar+Swizzling.m */,
 				D14E7C301EF7BACB00358206 /* Main.storyboard */,
 				D14E7C331EF7BACB00358206 /* Assets.xcassets */,
 				D14E7C351EF7BACB00358206 /* LaunchScreen.storyboard */,
@@ -276,6 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14E7C5C1EF7BB6400358206 /* FPTabBarViewController.m in Sources */,
+				D14E7C5F1EF7C06100358206 /* UITabBar+Swizzling.m in Sources */,
 				D14E7C2F1EF7BACB00358206 /* ViewController.m in Sources */,
 				D14E7C2C1EF7BACB00358206 /* AppDelegate.m in Sources */,
 				D14E7C291EF7BACB00358206 /* main.m in Sources */,
