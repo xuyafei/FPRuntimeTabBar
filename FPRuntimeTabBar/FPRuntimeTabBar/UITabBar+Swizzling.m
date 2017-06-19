@@ -191,7 +191,7 @@ static void ExchageMethod(SEL originalSelector, SEL swizzledSelector, Class clas
         tabCount++;
     }
     
-    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+    CGFloat width = [UIScreen mainScreen].bounds.size.width / tabCount;
     NSUInteger clickIndex = ceil(point.x) / ceilf(width);
     
     UITabBarController *controller = (UITabBarController *)[(AppDelegate *)[[UIApplication sharedApplication] delegate] window].rootViewController;
